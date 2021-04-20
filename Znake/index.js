@@ -46,25 +46,26 @@ function drawZnakeGame(){
     drawResult();
 
     if(score > 2){
-        speed = 8;
+        // speed = (score * 1) + parseInt(score/4); not working as i hope it will!
+        speed = 6;
     }
     if(score > 4){
         speed = 12;
     }
     if(score > 6){
-        speed = 20;
+        speed = 24;
     }
     if(score > 9){
-        speed = 35;
+        speed = 48;
     }
     if(score > 12){
-        speed = 50;
+        speed = 96;
     }
     if(score > 15){
-        speed = 70;
+        speed = 176;
     }
     if(score > 17){
-        speed = 90;
+        speed = 356;
     }
     if(score > 20){
         speed = 130;
@@ -91,7 +92,7 @@ function drawZnakeGame(){
         speed = 1000;
     }
     if(score > 40){
-        gameOver = true; // :D
+        speed = 2000; // :D
     }
     
          
@@ -173,6 +174,14 @@ function drawFood(){
     rtw.fillStyle = "orange";
     rtw.fillRect(foodX * tileCount, foodY * tileCount, tileSize, tileSize)
 }
+function getRandomFoodPosition(){
+    let newFoodPosition
+    while (newFoodPosition == null || onZnake(newFoodPosition)){
+        newFoodPosition = randomGridPosition();
+    }
+    return newFoodPosition;
+}
+
 
 // food disapears on collison and apears randomly in tilecount area :D
 function checkFoodCollision(){
