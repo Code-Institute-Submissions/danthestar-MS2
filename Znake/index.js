@@ -9,7 +9,7 @@ class ZnakePart{
 }
 
 // by changing the number (higher = faster) refreshing time of game
-let speed = 2;
+let speed = 4;
 
 let tileCount = 20;
 let tileSize = canvas.width / tileCount - 2;
@@ -44,6 +44,57 @@ function drawZnakeGame(){
     drawZnake();
 
     drawResult();
+
+    if(score > 2){
+        speed = 8;
+    }
+    if(score > 4){
+        speed = 12;
+    }
+    if(score > 6){
+        speed = 20;
+    }
+    if(score > 9){
+        speed = 35;
+    }
+    if(score > 12){
+        speed = 50;
+    }
+    if(score > 15){
+        speed = 70;
+    }
+    if(score > 17){
+        speed = 90;
+    }
+    if(score > 20){
+        speed = 130;
+    }
+    if(score > 23){
+        speed = 170;
+    }
+    if(score > 26){
+        speed = 250;
+    }
+    if(score > 38){
+        speed = 350;
+    }
+    if(score > 30){
+        speed = 500;
+    }
+    if(score > 31){
+        speed = 600;
+    }
+    if(score > 32){
+        speed = 800;
+    }
+    if(score > 35){
+        speed = 1000;
+    }
+    if(score > 40){
+        gameOver = true; // :D
+    }
+    
+         
 
     setTimeout(drawZnakeGame, 1000/ speed);
 }
