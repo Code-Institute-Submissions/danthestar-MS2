@@ -6,7 +6,7 @@ class ZnakePart{
         this.x = x;
         this.y = y;
     }
-}
+} 
 
 // by changing the number (higher = faster) refreshing time of game
 let speed = 4;

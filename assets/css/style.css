@@ -7,7 +7,7 @@ body{
     align-items: center;
 }
 
-canvas{
+canvas{ 
     box-shadow: rgb(49, 49, 49) 10px 10px 30px;
 }
 

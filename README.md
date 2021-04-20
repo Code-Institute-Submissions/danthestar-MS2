@@ -7,6 +7,6 @@
 
 * Goal it to make simple and interactive "snake" game
 
-## Owner goals
+## Owner goals 
 ---
 * Same as the external users - make a game that you'd enjoy playing yourself.
