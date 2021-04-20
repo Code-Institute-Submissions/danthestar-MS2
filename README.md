@@ -1,7 +1,7 @@
 # **Znake Game** 
 ## Interactive Frontend Development Milestone Project 2
 #### Website is aboute the game "snake", a simple game made by html css and js files. 
----
+
 ## Users goals
 
 * Goal it to make simple and interactive "snake" game
