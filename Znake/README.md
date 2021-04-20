@@ -28,7 +28,7 @@
      Join us on The Mandalorian journey...
 
 
-###  **[Site is published at github pages](https://danthestar.github.io/MS2/)**     
+###  **[Site is published at github pages]()**     
 ---
 ---
 ## **Content Tree**
