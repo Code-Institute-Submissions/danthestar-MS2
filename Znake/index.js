@@ -30,6 +30,12 @@ let result = 0;
 // game loop sequence's
 function drawZnakeGame(){
     changeZnakePosition();
+
+    let score = isGameOver();
+    if(score){
+        return;
+    }
+
     resetScreen();
     
 
@@ -40,6 +46,42 @@ function drawZnakeGame(){
     drawResult();
 
     setTimeout(drawZnakeGame, 1000/ speed);
+}
+// znake hits the wall function - coalision
+function isGameOver(){
+    let gameOver = false;
+
+    if(headX < 0){
+        gameOver = true;
+    }
+    else if(headX >= tileCount){
+        gameOver = true;
+    }
+        else if(headY < 0){
+        gameOver = true;
+    }
+    else if(headY === tileCount){
+        gameOver = true;
+    }
+    // hiting znakes body = game over
+    for(let i = 0; i < znakeParts.length; i++){
+        let part = znakeParts[i];
+        if(part.x === headX && part.y === headY){
+            gameOver = true;
+            break; // stop looping
+        }
+    }
+
+    // letting players know it game over- pop up window Game Over! text
+    if(gameOver){  
+        rtw.fillStyle = "white";
+        rtw.font = "40px Verdana";
+        
+
+        rtw.fillText("Game Over!", canvas.width / 4.3, canvas.height /2); // positionign of Game Over! text
+    }
+
+    return gameOver;  // mechanics of game are done. it game over, we just need to add visual info for players to know thta as well :D
 }
 
 // score result display window
