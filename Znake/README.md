@@ -1,6 +1,6 @@
 # **Znake Game** 
 ## Interactive Frontend Development Milestone Project 2, Project Example Idea 2
-![](mdimg/mdznake.jpg)
+![](assets/mdimg/mdznake.jpg)
 ### Website is aboute the game "snake", a simple game made by html css and js files. 
 ---
 ## Users goals
