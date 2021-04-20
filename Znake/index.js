@@ -177,7 +177,7 @@ function drawFood(){
 function getRandomFoodPosition(){
     let newFoodPosition
     while (newFoodPosition == null || onZnake(newFoodPosition)){
-        newFoodPosition = randomGridPosition();
+        newFoodPosition = randomGridPosition(); // hmmmmmmmmmmmmmmmmmmmmmmmmmmmm - how to fix this
     }
     return newFoodPosition;
 }
