@@ -27,8 +27,11 @@ let ySpeed = 0;
 
 let result = 0;
 
-const biteSound = new Audio("assets/mp3/biteapple.mp3");
-const gameovSound = new Audio("assets/mp3/gameov,mp3");
+var restartButton;
+
+const biteSound = new Audio("assets/mp3/biteapple.mp3");  // for eating food
+const gameovSound = new Audio("assets/mp3/gameov,mp3");   // for hiting canvas
+let droidSound = new Audio("assets/mp3/driod.mp3");      // for hiting it self
 
 // game loop sequence's
 function drawZnakeGame(){
@@ -134,7 +137,7 @@ function isGameOver(){
         
 
         rtw.fillText("Game Over!", canvas.width / 4.3, canvas.height /2); // positionign of Game Over! text
-        
+        rtw.fillText("Restart", canvas.width / 4.5, canvas.height /1.5);  // how to add reset button?!!!!!!!!!!
     }
 
     return gameOver;  // mechanics of game are done. it game over, we just need to add visual info for players to know thta as well :D

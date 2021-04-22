@@ -58,7 +58,7 @@ The website/Game is designed to be minimalistictic, with cleans and simple outlo
 
 ## **Wireframes**
 ---
-* I used website wireframe.cc to create a wireframes, with addition of Photoshop ofc.
+* I used website [Wireframe.cc](https://wireframe.cc/) to create a wireframes, with addition of Photoshop ofc.
 
 ![](assets/mdimg/wire.jpg)
 
@@ -77,12 +77,15 @@ Main colours:
 
 
 ### Fonts 
-   1. Montserrat = [Google Fonts Library](https://fonts.google.com/) scores   // still need to import them 
-   2. Mandalore = [Picture and Magic](https://www.picturethemagic.com/?s=mandalore) as maine title  // still need to import them 
-   3. sans-serif as a backup!
+   1. Bangers = [Google Fonts Library](https://fonts.google.com/) 
+   2. sans-serif as a backup!
+   
 ### Images
 
 * Images from Google will be all credite in [credits](#credits) section.
+
+### Sounds
+*  I used [ZapSplat](https://www.zapsplat.com/sound-effect-categories/) Free source sound effect webpage for sounds. 
 
 [Back to Content Tree](#content-tree)
 
@@ -139,12 +142,6 @@ Main colours:
 
 ### **Image editor**
 * Photoshop
-
-### **Testing Performance editor**
-* [Lighthouse exstention](https://developers.google.com/web/tools/lighthouse) 
-
-### **Visual editor**
-* [Am I Responsive](http://ami.responsivedesign.is/) 
 
 
 [Back to Content Tree](#content-tree)

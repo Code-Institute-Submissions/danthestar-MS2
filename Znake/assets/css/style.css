@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 body{
     margin: 0px;
     padding: 0px;
@@ -5,6 +7,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h1{
+    font-family: Bangers, sans-serif;
+    letter-spacing: 2px;    
+    color: #000000;
+}
+
+h3{
+    padding: 20px;
+    background-color: red;
 }
 
 canvas{ 
