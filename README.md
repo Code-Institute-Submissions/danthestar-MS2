@@ -60,7 +60,7 @@ The website/Game is designed to be minimalistictic, with cleans and simple outlo
 ---
 * I used website [Wireframe.cc](https://wireframe.cc/) to create a wireframes, with addition of Photoshop ofc.
 
-![](Znake/assets/mdimg/wire.jpg)
+![](Znake/assets/mdimg/wire.jpg)  // missing exsplanation of how the game works -instructions!
 
 
 ## **Surface**
@@ -128,8 +128,7 @@ Main colours:
 * All interactions are done by Java Script
 
 ### **Fonts**
-* [Google Fonts Library](https://fonts.google.com/)   // still working on it
-* [Google Fonts Library](https://fonts.google.com/)   // still working on it
+* Bangers  [Google Fonts Library](https://fonts.google.com/) 
   
 ### **Storage**
 * GitHub - As a software hosting platform to keep project in a remote location.
@@ -181,14 +180,14 @@ getting familiar how tiels and ticks work trough inspector options
 ---
 ---
 The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to github. I used push command in Gitpod to save changes into GitHub.
-* ###   Your site is published at https://danthestar.github.io/the-mandalorian/
+* ###   Your site is published at https://github.com/danthestar/MS2
 ---
 ---
 ## **Credits**
 ---
 ---
    
-####  To complete this project I used Code Institute student template: [gitpod-full-template](https://www.youtube.com/watch?v=QTcIXok9wNY&t=27s)
+####  To complete this project I used Code Institute student template: [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 ### **Idea**
 * In the beginning i wasn't sure what how or way to start: what game to make an dwhat Style
@@ -210,27 +209,20 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 
 ### **Media**
 
-* **jpg files** all my photos are Photoshoped after being downloaded form free source
-     * 1. ![](Znake/assets/mdimg/mdznake2.jpg)       
-     * 2. ![](Znake/assets/mdimg/Screenshot210.jpg)
-     * 3. ![](Znake/assets/mdimg/wire.jpg)
-
-## [Back to Content Tree](#content-tree)    
-      
-             
 * **all others links that i have used as inspiration or understanding how can i make something:**
    * [Web Dev Simplified ](https://www.youtube.com/watch?v=QTcIXok9wNY&t=27s) inspirations for coding development = especially in game department
    * [Coding With Adam](https://www.youtube.com/watch?v=7Azlj0f9vas&t=745s) inspirations for coding development = especially in game department
    * [Franks laboratory](https://www.youtube.com/watch?v=jl29qI62XPg&t=1477s) inspirations for coding development = especially in game department
    * [KnifeCircus](https://www.youtube.com/watch?v=bG2BmmYr9NQ&t=5s) inspirations for coding development = especially in game department
-  
-* **Icons** 
-  * used fom [Font Awesom](https://fontawesome.com/icons?d=gallery&m=free)  // still working on it
 
-* **Fonts** 
-    * **Lato:** from [Google Fonts Library](https://fonts.google.com/)  // still working on it
-    * **mandalore:** from [Picture and Magic](https://www.picturethemagic.com/?s=mandalore)  // still working on it
-    * **waltDisney:** from [Picture and Magic](https://www.picturethemagic.com/free-disney-fonts/)   // still working on it
+* **jpg files** all my photos are Photoshoped after being downloaded form free source
+     * 1. ![](Znake/assets/mdimg/mdznake2.jpg)       
+     * 2. ![](Znake/assets/mdimg/Screenshot210.jpg)
+     * 3. ![](Znake/assets/mdimg/wire.jpg)  
+      
+
+  ## [Back to Content Tree](#content-tree) 
+
 ---
 ### **Acknowledgements**
 ---
