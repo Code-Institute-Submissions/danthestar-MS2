@@ -27,7 +27,6 @@ let ySpeed = 0;
 
 let result = 0;
 
-var restartButton;
 
 const biteSound = new Audio("assets/mp3/biteapple.mp3");  // for eating food
 const gameovSound = new Audio("assets/mp3/gameov,mp3");   // for hiting canvas
@@ -44,7 +43,6 @@ function drawZnakeGame(){
 
     resetScreen();
     
-
     checkFoodCollision();
     drawFood();
     drawZnake();
@@ -90,17 +88,7 @@ function drawZnakeGame(){
     if(score > 31){
         speed = 600;
     }
-    if(score > 32){
-        speed = 800;
-    }
-    if(score > 35){
-        speed = 1000;
-    }
-    if(score > 40){
-        speed = 2000; // :D
-    }
-    
-         
+             
 
     setTimeout(drawZnakeGame, 1000/ speed);
 }
@@ -137,11 +125,16 @@ function isGameOver(){
         
 
         rtw.fillText("Game Over!", canvas.width / 4.3, canvas.height /2); // positionign of Game Over! text
-        rtw.fillText("Restart", canvas.width / 4.5, canvas.height /1.5);  // how to add reset button?!!!!!!!!!!
+        // rtw.fillText("Restart", canvas.width / 4.5, canvas.height /1.5);  // how to add reset button?!!!!!!!!!!
     }
 
     return gameOver;  // mechanics of game are done. it game over, we just need to add visual info for players to know thta as well :D
     
+}
+
+function myFunction() {
+  var btn = document.createElement("BUTTON");
+  document.body.appendChild(btn);
 }
 
 // score result display window
