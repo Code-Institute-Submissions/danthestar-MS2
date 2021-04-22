@@ -27,6 +27,9 @@ let ySpeed = 0;
 
 let result = 0;
 
+const biteSound = new Audio("assets/mp3/biteapple.mp3");
+const gameovSound = new Audio("assets/mp3/gameov,mp3");
+
 // game loop sequence's
 function drawZnakeGame(){
     changeZnakePosition();
@@ -46,8 +49,7 @@ function drawZnakeGame(){
     drawResult();
 
     if(score > 2){
-        // speed = (score * 1) + parseInt(score/4); not working as i hope it will!
-        speed = 6;
+        speed = 6;  // speed = (score * 1) + parseInt(score/4); not working as i hope it will! 
     }
     if(score > 4){
         speed = 12;
@@ -120,7 +122,8 @@ function isGameOver(){
         let part = znakeParts[i];
         if(part.x === headX && part.y === headY){
             gameOver = true;
-            break; // stop looping
+            break; // stop loop
+            
         }
     }
 
@@ -131,9 +134,11 @@ function isGameOver(){
         
 
         rtw.fillText("Game Over!", canvas.width / 4.3, canvas.height /2); // positionign of Game Over! text
+        
     }
 
     return gameOver;  // mechanics of game are done. it game over, we just need to add visual info for players to know thta as well :D
+    
 }
 
 // score result display window
@@ -190,6 +195,7 @@ function checkFoodCollision(){
         foodY = Math.floor(Math.random() * tileCount);
         tailLength++;
         result++;  // chainging score each time we eat "food"
+        biteSound.play();
     }
 }
 
