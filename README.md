@@ -1,7 +1,7 @@
 # **Znake Game** 
 
 ### Interactive Frontend Development Milestone Project 2, Project Example Idea 2
-![](assets/mdimg/mdznake2.jpg)
+![](Znake/assets/mdimg/mdznake2.jpg)
 ### Website presents "Znake" my first 2D JavaScript Game built form scratch and with still low knowledge on JS with attempt of creating the usual snake game.
 
 ### This project is for educational purposes and can not be used as a template for a business use. Website is aboute the game "snake", a simple game made by html css and mostly of the code is writen in JS files.  
@@ -60,7 +60,7 @@ The website/Game is designed to be minimalistictic, with cleans and simple outlo
 ---
 * I used website [Wireframe.cc](https://wireframe.cc/) to create a wireframes, with addition of Photoshop ofc.
 
-![](assets/mdimg/wire.jpg)
+![](Znake/assets/mdimg/wire.jpg)
 
 
 ## **Surface**
@@ -171,7 +171,7 @@ I had to do couple of changes to improve performance. Screenshots are presented 
 * To be honest, only issues was typo mistakes. And that usually consume a lot of time and discourages, only to eventually find that the code is good, but it has one letter of excess or missing semicolon that makes the whole code not work  
 * Some of them was me trying to figure it out, how the code is working...
 
-  ![](assets/mdimg/Screenshot210.jpg)
+  ![](Znake/assets/mdimg/Screenshot210.jpg)
 getting familiar how tiels and ticks work trough inspector options
 
   [Back to Content Tree](#content-tree)
@@ -211,9 +211,9 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 ### **Media**
 
 * **jpg files** all my photos are Photoshoped after being downloaded form free source
-     * 1. ![](assets/mdimg/mdznake2.jpg)       
-     * 2. ![](assets/mdimg/Screenshot210.jpg)
-     * 3. ![](assets/mdimg/wire.jpg)
+     * 1. ![](Znake/assets/mdimg/mdznake2.jpg)       
+     * 2. ![](Znake/assets/mdimg/Screenshot210.jpg)
+     * 3. ![](Znake/assets/mdimg/wire.jpg)
 
 ## [Back to Content Tree](#content-tree)    
       
