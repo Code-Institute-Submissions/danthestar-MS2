@@ -28,9 +28,9 @@ let ySpeed = 0;
 let result = 0;
 
 
-const biteSound = new Audio("assets/mp3/biteapple.mp3");  // for eating food
-const gameovSound = new Audio("assets/mp3/gameov,mp3");   // for hiting canvas
-let droidSound = new Audio("assets/mp3/driod.mp3");      // for hiting it self
+const biteSound = new Audio("Znake/assets/mp3/biteapple.mp3");  // for eating food
+const gameovSound = new Audio("Znake/assets/mp3/gameov.mp3");   // for hiting canvas
+let droidSound = new Audio("Znake/assets/mp3/driod.mp3");      // for hiting it self
 
 // game loop sequence's
 function drawZnakeGame(){
