@@ -29,7 +29,7 @@
     - [Functionality testing](#functionality-testing)
     - [Compatibility testing](#compatibility-testing)
 - [Deployment](#deployment)
-- [Screenshots](#screenshots)
+- [Screenshot](#screenshot)
 - [Credits](#credits)
 ---
 ---
@@ -235,6 +235,10 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 
   ## [Back to Content Tree](#content-tree) 
 
+---
+### **Screenshot**
+---
+   ![](Znake/assets/mdimg/scshoot.jpg)
 ---
 ### **Acknowledgements**
 ---
