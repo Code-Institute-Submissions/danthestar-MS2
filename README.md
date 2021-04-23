@@ -1,6 +1,7 @@
 # **Znake Game** 
 
 ### Interactive Frontend Development Milestone Project 2, Project Example Idea 2
+![](Znake/assets/mdimg/Responsive.jpg)
 ![](Znake/assets/mdimg/mdznake2.jpg)
 ### Website presents "Znake" my first 2D JavaScript Game built form scratch and with still low knowledge on JS with attempt of creating the usual snake game.
 
@@ -21,16 +22,15 @@
     - [Wireframes](#wireframes)
     - [Surface](#surface)
 - [Features](#features)
-  - [All pages](#all-pages)
+  - [Game Page](#game-page)
   - [Features Left to Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
     - [Functionality testing](#functionality-testing)
     - [Compatibility testing](#compatibility-testing)
-    - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
-- [Credits](#credits)
 - [Screenshots](#screenshots)
+- [Credits](#credits)
 ---
 ---
 ## UX
@@ -58,9 +58,9 @@ The website/Game is designed to be minimalistictic, with cleans and simple outlo
 
 ## **Wireframes**
 ---
-* I used website [Wireframe.cc](https://wireframe.cc/) to create a wireframes, with addition of Photoshop ofc.
+* I used website [Wireframe.cc](https://wireframe.cc/ob6oIW) to create a wireframes, with addition of Photoshop ofc.
 
-![](Znake/assets/mdimg/wire.jpg)  // missing exsplanation of how the game works -instructions!
+![](Znake/assets/mdimg/wirefr.jpg)  // missing exsplanation of how the game works -instructions!
 
 
 ## **Surface**
@@ -69,16 +69,18 @@ The website/Game is designed to be minimalistictic, with cleans and simple outlo
 ### Colors
 Main colours:
 * background color: none
-* main name title color: work in progress
+* main name title color: black
+* reset button color: orange
 * score color: white
-* bezel color: work in progress
-* znake color: work in progress
-* food color: work in progress
+* food color: orange
+* snake head color: white
+* snake body color: green
 
 
 ### Fonts 
    1. Bangers = [Google Fonts Library](https://fonts.google.com/) 
    2. sans-serif as a backup!
+   3. Verdana = default
    
 ### Images
 
@@ -99,18 +101,19 @@ Main colours:
 
 ### **Game page** 
 *  one page where game is centred on page, vertically and horizontally
-* contains game window (20x20 tails) where "znake" is moving in search of "food" 
+*  contains game window (20x20 tails) where "znake" is moving in search of "food" 
 *  score indication in right upper corner
 *  title name slightly above the game "Znake"
+*  reset button game for restarting the game form start
 
 
 
 ### **Features Left to Implement**
-* defenetly more levels with higer spee dor harder dificolty in some maners
+* defenetly more levels with higer speed or harder dificolty in some maners
 * some type of star scoring: so players can leav 1-5 star grade
 * it will be nice to make the same game in 3D environment
 * implement way more different context, just for practise and it will make game more hi-tech and more attractive!
-* implement score name options - so the other players will try to beat the higest score
+* implement score name options - leaderboard
 * make it multiplayer!!
 
 ---
@@ -128,7 +131,7 @@ Main colours:
 * All interactions are done by Java Script
 
 ### **Fonts**
-* Bangers  [Google Fonts Library](https://fonts.google.com/) 
+* Bangers  [Google Fonts Library](https://fonts.google.com/)  
   
 ### **Storage**
 * GitHub - As a software hosting platform to keep project in a remote location.
@@ -137,10 +140,11 @@ Main colours:
 * Gitpod - As a development hosting platform.
 
 ### Wireframe.cc
-* As a wireframing tool.
+* Making sketches and layout of the project.
 
 ### **Image editor**
 * Photoshop
+* [Am i responsive](http://ami.responsivedesign.is/#)
 
 
 [Back to Content Tree](#content-tree)
@@ -153,25 +157,25 @@ Main colours:
 
 ### **Functionality testing** 
 
-  * Most of the time i was doing this topic, testing, testing and a bit more testing the code and checking on inspect how will my code change trough css.
-  * Im using Microsoft Edge/Chrome
+  * sinc it a simple game...
 
 
 ### **Compatibility testing**
- Since it original ymade only for keyboard platform, compability testing was smuth on all similar platforms!
-
- ## Performance testing
----
-I use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
-I had to do couple of changes to improve performance. Screenshots are presented below:
+ Since it originaly made only for keyboard platform, compability testing was smuth on all similar platforms with keyboard.
 
 ### Issues during site development
 
-* To be honest, only issues was typo mistakes. And that usually consume a lot of time and discourages, only to eventually find that the code is good, but it has one letter of excess or missing semicolon that makes the whole code not work  
-* Some of them was me trying to figure it out, how the code is working...
+* To be honest, since i was following youtube video only issues was TYPO mistakes. And that usually consume a lot of time and discourages, only to eventually find that the code is good, but it has one letter of excess or missing semicolon that makes the whole code incorrectly.   
+* Some of them was me trying to figure it out, how is evrything behave in inspector view., example of grid system
 
   ![](Znake/assets/mdimg/Screenshot210.jpg)
 getting familiar how tiels and ticks work trough inspector options
+
+* New/old issues appears this morning again, this types are actually consistent during entire time working on this project.
+  * it not so bad, since it usualy last around 20-30min and then goes away, so im not sure is it lag issues, servers., one of examples below.
+  
+    ![](Znake/assets/mdimg/wierd.jpg) 
+    * sometimes can be quite progres killer, since it shows wrong inputs. And the same code doesn't work any more as it supposed to.
 
   [Back to Content Tree](#content-tree)
 ---
@@ -181,19 +185,27 @@ getting familiar how tiels and ticks work trough inspector options
 ---
 The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to github. I used push command in Gitpod to save changes into GitHub.
 * ###   Your site is published at https://github.com/danthestar/MS2
+
 ---
 ---
-## **Credits**
+- [Screenshots](#screenshots)
+---
+---
+
+
+---
+---
+- [Credits](#credits)
 ---
 ---
    
 ####  To complete this project I used Code Institute student template: [gitpod-full-template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 ### **Idea**
-* In the beginning i wasn't sure what how or way to start: what game to make an dwhat Style
-  * but with consulting my self with student suppoort and my mentor Adegbenga Adeye, i agree with them to stick to something simple
+* In the beginning i wasn't sure what, how or where to start: what game to make and what style to pick.
+  * after consulting my self with student suppoort and my mentor Adegbenga Adeye, i agree with them to stick to something simple
   * so since my entire reason to start doing coding was to be able to start doing in game development or application development, snake game was best pick
-* But since this is my first JS actual coding, i needed a model that i can follow and understand, those bellow are some of my picks form where i was able to recreate my Znake game
+* **But since this is my first JS actual coding**, i needed a model that i can follow and understand, those bellow are some of my picks form where i was able to recreate my Znake game
     
   * i try my best to not use same names as the source of my code, so by doing that i hope i avoid at least some of copy/paste related issues confronting forms about violation of use someone's code
   * and it also beneficial for me if i change all the names - so i can use more of my own thinking in order to figure it out how the code operates
@@ -216,10 +228,10 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
    * [KnifeCircus](https://www.youtube.com/watch?v=bG2BmmYr9NQ&t=5s) inspirations for coding development = especially in game department
 
 * **jpg files** all my photos are Photoshoped after being downloaded form free source
-     * 1. ![](Znake/assets/mdimg/mdznake2.jpg)       
+     * 1. ![](Znake/assets/mdimg/mdznake2.jpg)     
      * 2. ![](Znake/assets/mdimg/Screenshot210.jpg)
-     * 3. ![](Znake/assets/mdimg/wire.jpg)  
-      
+     * 3. ![](Znake/assets/mdimg/wierd.jpg)  
+     * 4. ![](Znake/assets/mdimg/wirefr.jpg) 
 
   ## [Back to Content Tree](#content-tree) 
 
@@ -228,9 +240,8 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
 ---
 * **Special Thanks to:**
     * my Mentor - **Adegbenga Adeye**.
-    * all the **Tutor Assistance** (even tho i didn't use them as mutch)
-    * **HUGE** thanks to all girls and guys in the **[Slack Community](https://slack.com/intl/en-ie/)** for providing constant and quite fast response time for every my query!!
-        * no matter how stupid that query my be
+    * all the **Tutor Assistance** 
+    * **HUGE** thanks to all girls and guys in the **[Slack Community](https://slack.com/intl/en-ie/)** for providing response for each of my query.
     * **Student Care** for constant care and providers of usuefull additional information out side of follow lectures
     * Troubleshooting Tips - it a handy
     * youtube content creators
