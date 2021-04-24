@@ -28,6 +28,7 @@
 - [Testing](#testing)
     - [Functionality testing](#functionality-testing)
     - [Compatibility testing](#compatibility-testing)
+    - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
 - [Screenshot](#screenshot)
 - [Credits](#credits)
@@ -60,7 +61,7 @@ The website/Game is designed to be minimalistictic, with cleans and simple outlo
 ---
 * I used website [Wireframe.cc](https://wireframe.cc/ob6oIW) to create a wireframes, with addition of Photoshop ofc.
 
-![](Znake/assets/mdimg/wirefr.jpg)  // missing exsplanation of how the game works -instructions!
+![](Znake/assets/mdimg/wirefr.jpg)  
 
 
 ## **Surface**
@@ -70,7 +71,7 @@ The website/Game is designed to be minimalistictic, with cleans and simple outlo
 Main colours:
 * background color: none
 * main name title color: black
-* reset button color: orange
+* reset button color: orange, with black outline
 * score color: white
 * food color: orange
 * snake head color: white
@@ -80,7 +81,7 @@ Main colours:
 ### Fonts 
    1. Bangers = [Google Fonts Library](https://fonts.google.com/) 
    2. sans-serif as a backup!
-   3. Verdana = default
+   3. Verdana = as default
    
 ### Images
 
@@ -102,9 +103,9 @@ Main colours:
 ### **Game page** 
 *  one page where game is centred on page, vertically and horizontally
 *  contains game window (20x20 tails) where "znake" is moving in search of "food" 
-*  score indication in right upper corner
+*  the result label is in the upper right corner
 *  title name slightly above the game "Znake"
-*  reset button game for restarting the game form start
+*  reset button game for restarting the game form start it under Znake title
 
 
 
@@ -142,6 +143,9 @@ Main colours:
 ### Wireframe.cc
 * Making sketches and layout of the project.
 
+### [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+* Tool to check performance of the website
+
 ### **Image editor**
 * Photoshop
 * [Am i responsive](http://ami.responsivedesign.is/#)
@@ -157,14 +161,25 @@ Main colours:
 
 ### **Functionality testing** 
 
-  * sinc it a simple game...
+  * since it a simple game...
 
 
 ### **Compatibility testing**
- Since it originaly made only for keyboard platform, compability testing was smuth on all similar platforms with keyboard.
+ It was made originaly only for keyboard platform, compability testing was smooth  on all similar platforms with keyboard.
+
+### **Performance testing**
+---
+  I run [Lighthouse](https://developers.google.com/web/tools/lighthouse) tool to check performance of the website. Screenshots are presented below:
+    
+   ![](Znake/assets/mdimg/perf1.jpg)
+
+   ![](Znake/assets/mdimg/perf2.jpg)
+* Unfortunately, PWA did not pass since i was building the game for keyboard devices only, desktop computers. 
+   
+![](Znake/assets/mdimg/perf3.jpg)
 
 ### Issues during site development
-
+---
 * To be honest, since i was following youtube video only issues was TYPO mistakes. And that usually consume a lot of time and discourages, only to eventually find that the code is good, but it has one letter of excess or missing semicolon that makes the whole code incorrectly.   
 * Some of them was me trying to figure it out, how is evrything behave in inspector view., example of grid system
 
@@ -186,16 +201,10 @@ getting familiar how tiels and ticks work trough inspector options
 The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to github. I used push command in Gitpod to save changes into GitHub.
 * ###   Your site is published at https://github.com/danthestar/MS2
 
----
----
-- [Screenshots](#screenshots)
----
----
-
 
 ---
 ---
-- [Credits](#credits)
+## **Credits**
 ---
 ---
    
@@ -236,7 +245,9 @@ The project was deployed on GitHub Pages. I used Gitpod as a development environ
   ## [Back to Content Tree](#content-tree) 
 
 ---
-### **Screenshot**
+---
+## **Screenshot**
+---
 ---
    ![](Znake/assets/mdimg/scshoot.jpg)
 ---

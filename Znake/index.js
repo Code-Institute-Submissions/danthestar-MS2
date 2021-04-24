@@ -30,7 +30,7 @@ let result = 0;
 
 const biteSound = new Audio("Znake/assets/mp3/biteapple.mp3");  // for eating food
 const gameovSound = new Audio("Znake/assets/mp3/gameov.mp3");   // for hiting canvas
-let droidSound = new Audio("Znake/assets/mp3/driod.mp3");      // for hiting it self
+const droidSound = new Audio("Znake/assets/mp3/droid.mp3");      // for hiting it self
 
 // game loop sequence's
 function drawZnakeGame(){
@@ -50,7 +50,7 @@ function drawZnakeGame(){
     drawResult();
 
     if(score > 2){
-        speed = 6;  // speed = (score * 1) + parseInt(score/4); not working as i hope it will! 
+        speed = 6;  
     }
     if(score > 4){
         speed = 12;
@@ -98,23 +98,29 @@ function isGameOver(){
 
     if(headX < 0){
         gameOver = true;
+        gameovSound.play();
     }
     else if(headX >= tileCount){
         gameOver = true;
+        gameovSound.play();
     }
         else if(headY < 0){
         gameOver = true;
+        gameovSound.play();
     }
     else if(headY === tileCount){
         gameOver = true;
+        gameovSound.play();
     }
     // hiting znakes body = game over
     for(let i = 0; i < znakeParts.length; i++){
         let part = znakeParts[i];
         if(part.x === headX && part.y === headY){
             gameOver = true;
-            break; // stop loop
+            droidSound.play();
             
+            break; // stop loop
+
         }
     }
 
@@ -122,10 +128,9 @@ function isGameOver(){
     if(gameOver){  
         rtw.fillStyle = "white";
         rtw.font = "40px Verdana";
-        
 
         rtw.fillText("Game Over!", canvas.width / 4.3, canvas.height /2); // positionign of Game Over! text
-        // rtw.fillText("Restart", canvas.width / 4.5, canvas.height /1.5);  // how to add reset button?!!!!!!!!!!
+        
     }
 
     return gameOver;  // mechanics of game are done. it game over, we just need to add visual info for players to know thta as well :D
@@ -178,7 +183,7 @@ function drawFood(){
 function getRandomFoodPosition(){
     let newFoodPosition
     while (newFoodPosition == null || onZnake(newFoodPosition)){
-        newFoodPosition = randomGridPosition(); // hmmmmmmmmmmmmmmmmmmmmmmmmmmmm - how to fix this
+        newFoodPosition = randomGridPosition(); 
     }
     return newFoodPosition;
 }
